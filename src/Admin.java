@@ -2,9 +2,8 @@ import java.time.LocalDate;
 
 public class Admin extends User{
     private String role;
-
-    public Admin(String name, LocalDate dob){
-        super(name, dob);
+    public Admin(String name ,int year,int month,int day){
+        super();
         this.role = "Admin";
     }
 
